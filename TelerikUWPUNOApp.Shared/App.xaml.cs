@@ -30,7 +30,7 @@ namespace TelerikUWPUNOApp
         public App()
         {
             ConfigureFilters(global::Uno.Extensions.LogExtensionPoint.AmbientLoggerFactory);
-
+          //var dummy = new Telerik.UI.Xaml.Controls.UserThemeResources();
             this.InitializeComponent();
             this.Suspending += OnSuspending;
         }

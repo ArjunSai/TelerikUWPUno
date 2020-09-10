@@ -23,15 +23,16 @@
     xmlns:telerikPrimatives="using:Telerik.UI.Xaml.Controls.Primitives"
     mc:Ignorable="d">
 
+
   <Grid>
-    <!--<TextBlock Text="Hello, world!" Margin="20" FontSize="30" />-->
-    
-   <Grid.Resources>
-            <Style TargetType="telerikPrimatives:RadBusyIndicator">
-                <Setter Property="Foreground" Value="White" />
-                <Setter Property="IsActive" Value="True" />
-            </Style>
-        </Grid.Resources>
+
+    <Grid.Resources>
+
+      <Style TargetType="telerikPrimatives:RadBusyIndicator">
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="IsActive" Value="True" />
+      </Style>
+    </Grid.Resources>
     <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
       <RelativePanel>
         <Grid x:Name="LayoutRoot">
@@ -105,4 +106,3 @@
     </VisualStateManager.VisualStateGroups>
   </Grid>
 </Page>
-
